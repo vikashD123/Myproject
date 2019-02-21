@@ -1,0 +1,3 @@
+2019-02-19 18:21:55,307 [main] INFO HandlingLog - launching browser
+2019-02-19 18:22:07,478 [main] INFO HandlingLog - navigating to red bus 
+2019-02-19 18:22:08,679 [main] INFO HandlingLog - getting title of web page

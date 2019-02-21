@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="mfk@123"/>
+  <parameter name="url" value="https://www.facebook.com/"/>
+  <parameter name="username" value="vikash"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="parametertest.Lab1">
+        <methods>
+          <include name="verifyLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parametertest.Lab1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
